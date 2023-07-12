@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(city.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+.container{
+    border: 3px solid white;
+    color: white;
+    left: 36%;
+    top: 21%;
+    position: absolute;
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 3px white solid;
+    margin-bottom: 40px;
+    padding: 30px 79px;
+    /* align-content: center; */
+}
+.box{
+    /* border: 2px solid white; */
+    width: 100%;
+    /* padding: 0px 3px; */
+}
+
+.box input{
+    border: none;
+    width: 75%;
+    outline: none;
+    color: white;
+    margin: 20px 13px ;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background: none;
+    border-bottom: 2px solid white;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 26px 130px ;
+    size: 20px;
+    width: 25%;
+    background: none;
+    border: white 3px solid;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+  
+    /* margin: 12px 0px; */
+}
+
+.box {
+    display: flex;
+}
+ 
+.box i{
+    width: 25px;
+    text-align: center;
+    padding: 30px 12px ;
+    
+}
+
+.btn2{
+    cursor: pointer;
+    margin: 26px 1350px ;
+    size: 20px;
+    width: 9%;
+    background: none;
+    border: white 3px solid;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+  
+    /* margin: 12px 0px; */
+}
